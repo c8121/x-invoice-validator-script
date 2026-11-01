@@ -17,9 +17,6 @@ for %%I in ("%input_filename%") do set "input_filename=%%~nxI"
 set "output_dir=%TEMP%"
 set "output_html=%output_dir%\%input_filename%-report.html"
 
-echo %output_html%
-exit
-
 :: dirname $0
 set "script_dir=%~dp0"
 set "script_dir=%script_dir:~0,-1%"
