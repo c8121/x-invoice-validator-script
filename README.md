@@ -15,7 +15,7 @@ Script to validate X-Invoices using KoSIT-Validator
 - Install Java
 - Download recent version of the standalone KoSIT-Validator `validator-x.x.x-standalone.jar` from https://github.com/itplr-kosit/validator/releases/ \
 Place the JAR-file in the same directory as the validate-script (`validate.sh` or `validate.cmd`).
-- Download recent version of the validator configuration from https://github.com/itplr-kosit/validator-configuration-xrechnung/ \
+- Download recent version of the validator configuration from https://github.com/itplr-kosit/validator-configuration-xrechnung/releases/ \
 Create a directory named `config` in the same directory as the validate-script. \
 Extract contents of the ZIP-file directly into the config-directory.
 
